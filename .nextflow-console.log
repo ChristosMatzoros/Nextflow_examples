@@ -1,0 +1,19 @@
+Oct-17 15:18:52.129 [AWT-EventQueue-0] DEBUG nextflow.Session - Session UUID: 0423bca3-c45c-4cdd-bf96-c1344bcffee2
+Oct-17 15:18:52.142 [AWT-EventQueue-0] DEBUG nextflow.Session - Run name: tender_mcclintock
+Oct-17 15:18:52.143 [AWT-EventQueue-0] DEBUG nextflow.Session - Executor pool size: 10
+Oct-17 15:18:52.153 [AWT-EventQueue-0] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Oct-17 15:18:52.165 [AWT-EventQueue-0] DEBUG nextflow.Session - Work-dir: /Users/cmatzoros/Apps/Nextflow/work [Mac OS X]
+Oct-17 15:18:52.176 [AWT-EventQueue-0] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Oct-17 15:18:52.188 [AWT-EventQueue-0] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Oct-17 15:18:52.209 [AWT-EventQueue-0] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Oct-17 15:18:52.229 [AWT-EventQueue-0] DEBUG nextflow.util.CustomPoolFactory - Creating virtual thread pool
+Oct-17 15:18:52.306 [Thread-2] DEBUG nextflow.Session - Session start
+Oct-17 15:18:52.465 [Thread-2] DEBUG nextflow.Session - Workflow process names [dsl2]: 
+Oct-17 15:18:52.466 [Thread-2] DEBUG nextflow.Session - Igniting dataflow network (0)
+Oct-17 15:18:52.466 [Thread-2] DEBUG nextflow.Session - Session await
+Oct-17 15:18:52.466 [Thread-2] DEBUG nextflow.Session - Session await > all processes finished
+Oct-17 15:18:52.466 [Thread-2] DEBUG nextflow.Session - Session await > all barriers passed
+Oct-17 15:18:52.477 [Thread-2] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=0; peakCpus=0; peakMemory=0; ]
+Oct-17 15:18:52.491 [Thread-2] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Oct-17 15:18:52.492 [Thread-2] INFO  org.pf4j.AbstractPluginManager - Stop plugin 'nf-console@1.0.6'
+Oct-17 15:18:52.492 [Thread-2] DEBUG nextflow.plugin.BasePlugin - Plugin stopped nf-console

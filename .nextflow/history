@@ -1,0 +1,21 @@
+2023-10-17 12:33:11	2.3s	suspicious_darwin	OK	1d71f857bb64af58716575d770ef74baf21313d1	730a9dc9-c5d9-4365-9e28-8b9d2cab8503	nextflow run hello
+2023-10-17 14:58:22	3.7s	peaceful_thompson	OK	9adb635f32db213a437889c7a0178170	7e011471-bdd3-4121-8d2a-a10a46bd21f8	nextflow run wc.nf
+2023-10-18 10:13:52	1.6s	scruffy_kowalevski	OK	9adb635f32db213a437889c7a0178170	7b7798ba-5b37-40b7-a0fa-48ab0f2e6374	nextflow wc.nf
+2023-10-18 10:15:28	2.3s	intergalactic_plateau	OK	9adb635f32db213a437889c7a0178170	658e0300-8bac-4a54-8200-6ba4fbfa3f1b	nextflow wc.nf
+2023-10-18 10:16:09	2.7s	intergalactic_turing	OK	9adb635f32db213a437889c7a0178170	18c82ae4-ba1e-4f18-9f34-40d8072572fc	nextflow run wc.nf --input data/yeast/reads/ref2_2.fq.gz
+2023-10-18 10:16:23	3.2s	trusting_galileo	OK	9adb635f32db213a437889c7a0178170	cfc3afe0-4a73-4e15-9add-6c9f48067def	nextflow run wc.nf --input 'data/yeast/reads/ref2_*.fq.gz'
+2023-10-18 10:16:49	3.8s	modest_hamilton	OK	9adb635f32db213a437889c7a0178170	15626181-6dea-449b-85a7-1ee6acb309a4	nextflow run wc.nf --input 'data/yeast/reads/*'
+2023-10-18 10:17:13	3.8s	tender_hodgkin	OK	9adb635f32db213a437889c7a0178170	e36ec06c-0b40-46f6-ab20-d74fc35c6145	nextflow run wc.nf --input 'data/yeast/reads/ref*.fq.gz'
+2023-10-18 10:34:49	4.2s	thirsty_davinci	OK	e069d4a8b78cf1832e5f09f95f92c494	329e9287-ed67-4201-9306-8171e7526bf1	nextflow run wc-params.nf --sleep 1
+2023-10-18 10:34:58	7s	berserk_becquerel	OK	e069d4a8b78cf1832e5f09f95f92c494	e98479d3-a920-4e9a-9d13-fb3829075bbd	nextflow run wc-params.nf --sleep 4
+2023-10-18 10:37:53	5.4s	prickly_galileo	OK	e069d4a8b78cf1832e5f09f95f92c494	a296416a-2ac2-4d37-ba33-8058825e48e7	nextflow run wc-params.nf --sleep 1 --input 'data/yeast/reads/*.fq.gz'
+2023-10-18 10:47:47	8.1s	chaotic_waddington	OK	e069d4a8b78cf1832e5f09f95f92c494	1e2d3a51-42a0-46e6-b045-7661712f056e	nextflow run wc-params.nf -params-file wc-params.json
+2023-10-18 10:48:53	12.7s	hopeful_morse	OK	e069d4a8b78cf1832e5f09f95f92c494	50f5ddf5-9a7a-4c49-bbf1-9f07a6d03ca1	nextflow run wc-params.nf -params-file wc-params.json
+2023-10-18 12:18:56	2.1s	scruffy_bose	OK	178970e5dcbef4da97a5a268f4d1aa00	f6f81ca0-aac3-44e5-9b80-953a10ea4c84	nextflow run channel.nf
+2023-10-18 12:19:05	2.2s	happy_cori	OK	178970e5dcbef4da97a5a268f4d1aa00	be7ddab2-98cc-4df0-ba3c-3d15d1871fc3	nextflow run channel.nf
+2023-10-18 12:31:15	2.5s	happy_marconi	OK	178970e5dcbef4da97a5a268f4d1aa00	7c7c144a-85dc-4a7a-b155-6c6793247399	nextflow run channel.nf
+2023-10-18 12:31:28	2.2s	pensive_northcutt	OK	00000000000000000000000000000000	869f1ed2-640b-4e81-8b94-030e4d90f151	nextflow run channel.fromlistVsOf.nf
+2023-10-18 12:34:41	-	amazing_elion	-	60970c4413dc63fe28cff31645a37c40	fae79d9c-c713-47f2-81ff-42ded44742a0	nextflow run channel.fromlistVsOf.nf
+2023-10-18 12:34:57	2s	irreverent_torvalds	OK	d107a79d493430772a84a619c73d052b	c8bd215b-899f-4c10-a80b-355789719301	nextflow run channel.fromlistVsOf.nf
+2023-10-18 13:24:13	-	hopeful_engelbart	-	504db66d3abf3243b4f415c8c5a6b44b	e7ef490c-b6b4-4af6-a959-193a29379f96	nextflow run channel_fromPath.nf
+2023-10-18 13:24:25	2.6s	ridiculous_swartz	OK	ac7ec7b8434392aa3227c541c5b1d59f	b234eade-a860-4dc1-8b27-dc1c8fde72f3	nextflow run channel_fromPath.nf
